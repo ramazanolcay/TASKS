@@ -5,8 +5,8 @@ from nltk.corpus import stopwords
 import nltk
 import string
 ps = PorterStemmer()
-tfidf = pickle.load(open('D:/COŞKUNÖZ/Flask/tfidf_vec.pkl', 'rb'))
-model = pickle.load(open('D:/COŞKUNÖZ/Flask/model.pkl', 'rb'))
+tfidf = pickle.load(open('tfidf_vec.pkl', 'rb'))
+model = pickle.load(open('model.pkl', 'rb'))
 
 try:
     nltk.download("punkt")
