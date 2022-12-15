@@ -1,3 +1,12 @@
+Docker pull request = "docker pull sefalett/hamspammodelro:latest"
+
+
+
+
+
+
+*********************************************************** Dockerfile Build Method ***********************************************************
+
 ************ FOR WINDOWS POWERSHELL ************
  
  To acces your file path = "cd "Your file path""
