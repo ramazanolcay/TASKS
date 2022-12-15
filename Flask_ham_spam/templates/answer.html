@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Answer</title>
+</head>
+<body style="background-color: rgba(0, 0, 0, 0.547);">
+    <div style="width:80%; margin: 120px 10%; text-align: center;"> 
+
+        <p>
+    
+        
+            {% if prediction == 0 %}
+                <p style="color: #ffffff; font-size:50px;">Your Text is</p>
+                <p style="color: #fff705; font-size:150px;">HAM</p>
+            {% else %}
+                <p style="color: #ffffff; font-size:50px;">Your Text is</p>
+                <p style="color: #fff705; font-size:150px;">SPAM</p>
+            {% endif %} 
+            <a href="/">
+                <form style="width:50%; margin: 450px; text-align: center; color: #ffffff; font-size:18px; padding: 10px 15px; background-color: #ffffff; margin-top: 100px; width: 20%; border: 1px solid #66bc7d;" action="/">
+                     <input class="btn" type="button" value="HOMEPAGE" />
+                </form>
+            </a>
+        
+        </p>
+
+    </div>
+
+</body>
+</html>
