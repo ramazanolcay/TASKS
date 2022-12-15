@@ -1,0 +1,20 @@
+
+
+----------------------Docker pull request = "docker pull sefalett/hamspammodelro:latest" --------------------------------
+
+
+
+
+*********************************************************** Dockerfile Build Method ***********************************************************
+
+************ FOR WINDOWS POWERSHELL ************
+ 
+ To acces your file path = "cd "Your file path""
+ 
+ To build the Dockerfile = "docker build --tag ham_spam ."
+ 
+ To run the container = "docker run -d -p 5000:5000 ham_spam"
+ 
+ ************ FOR BROWSER SEARCH BAR ************
+ 
+ To access the app = "127.0.0.1:5000"
