@@ -1,6 +1,9 @@
 
 
 ----------------------Docker pull request = "docker pull sefalett/hamspammodelro:latest" --------------------------------
+---------------------- To run image = "docker run --publish 5000:5000 sefalett/hamspammodelpro:latest -------------------
+
+                                                           (localhost:5000)
 
 
 
